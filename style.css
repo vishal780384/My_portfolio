@@ -1,0 +1,53 @@
+ body{
+   overflow-x: hidden;
+ }
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #94989ed7;
+}
+.navbar .navbar-nav .nav-link:hover{
+     background-color: #7d7d818b;
+     border-radius: 8px;
+     font-size: 103%;
+     font-weight: 400;
+}
+section {
+  padding-top: 5rem;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  margin-left: 5px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: #ed29a5bd;
+  color: rgb(240, 231, 235);
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #2849df;
+  color: white;
+}
+.fa-github {
+  background: #383839c9;
+  color: white;
+}
+.fa-facebook {
+  background: #3f8cc7;
+  color: white;
+}
